@@ -1,0 +1,1 @@
+sträng = "test"
