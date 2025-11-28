@@ -40,7 +40,19 @@ print(c)
 data = [("Anna", "Stockholm"), ("Olle", "Göteborg"), ("Lisa", "Stockholm"), ("Per", "Malmö")]
 data_ny = {}
 for k, v in data:
-    if k in data:
-        data_ny[k] += v
+    if v in data_ny:
+        data_ny[v] += [k]
     else:
-        data_ny[k] = v
+        data_ny[v] = [k]
+print(data_ny)
+
+students = {
+
+"Sara": {"math": 12, "english": 15},
+
+"Jonas": {"math": 14, "english": 10}
+
+}
+
+students["Sara"]["physics"] = 13
+print(students)
