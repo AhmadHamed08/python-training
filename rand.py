@@ -61,6 +61,77 @@ import random
 #         else:
 #             break
 
+# spelare_pöang = 0
+# dator_pöang = 0
+
+# val_lista = ["Sten", "Sax", "Påse"]
+
+# while True:
+#     spelare_val = input("Välj mellan Sten-Sax-Påse: ")
+#     dator_val = random.choice(val_lista)
+    
+#     if spelare_val == dator_val:
+#         print(f"Båda valde: {spelare_val}")
+#         continue
+
+#     elif spelare_val == "Sten" and dator_val == "Sax":
+#         spelare_pöang += 1
+
+#     elif spelare_val == "Sten" and dator_val == "Påse":
+#         dator_pöang += 1
+
+#     elif spelare_val == "Sax" and dator_val == "Påse":
+#         spelare_pöang += 1
+
+#     elif spelare_val == "Sax" and dator_val == "Sten":
+#         dator_pöang += 1
+
+#     elif spelare_val == "Påse" and dator_val == "Sten":
+#         spelare_pöang += 1
+
+#     elif spelare_val == "Påse" and dator_val == "Sax":
+#         dator_pöang += 1
+#     else:
+#         print("Fel input försök igen")
+#         continue
+
+#     print(f"Spelare valde: {spelare_val}, Dator valde: {dator_val}")
+#     print(f"Spelare pöang: {spelare_pöang}")
+#     print(f"Datorns pöang: {dator_pöang}")
+
+#     if spelare_pöang == 3 or dator_pöang == 3:
+#         if spelare_pöang == 3:
+#             print("Du fick 3 pöang och vann!")
+#         else:
+#             print("Dator fick 3 pöang och vann")
+
+#         spela_igen = input("Vill du spela igen? y/n: ")
+#         if spela_igen == "y":
+#             dator_pöang = 0
+#             spelare_pöang = 0
+#             continue
+#         else:
+#             break
+
+
+# antal_kast = int(input("Skriv in hur många kast du vill simulera: "))
+# totala_kast = {1:0, 2:0, 3:0, 4:0, 5:0, 6:0}
+
+# for i in range(antal_kast):
+#     kast = random.randint(1, 6)
+#     totala_kast[kast] += 1
+# print(totala_kast)
+
+# for k, v in totala_kast.items():
+#     procent = ((totala_kast[k] * 100) // antal_kast)
+#     print(f"{k}:or | {"x" * procent} {procent}%")
+
+
+
+
+
+
+
 
 
 
